@@ -28,7 +28,7 @@ class TodoList extends Component<any, TodoListState> {
 
     render() {
         return (
-            <div>
+            <div className={styles.todoBody}>
                 <h2>this is a todo list</h2>
                     {this.state.loading ? (
                 <h2>this is loading</h2>
