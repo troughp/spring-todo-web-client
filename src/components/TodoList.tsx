@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Todo from "../services/Todo";
 import {getTodos} from "../services/todoService";
 import TodoItem from "./TodoItem";
-import {Row, Space} from "antd";
+import { Row } from "antd";
 import TodoForm from "./TodoForm";
 import styles from "./styles.module.css"
 
