@@ -3,7 +3,6 @@ import Todo from "./Todo";
 
 const base_url = 'https://alallskdjfhalall-todo-spring.herokuapp.com/api/todos';
 
-
 export const getTodos = async () => {
     try{
         let response = await axios.get(base_url);
