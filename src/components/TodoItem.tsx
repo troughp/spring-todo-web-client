@@ -53,7 +53,7 @@ class TodoItem extends Component<TodoProp, TodoState> {
 
     deleteTodo = () => {
         if (this.props.todo.id != null && this.props.todo.complete) {
-            deleteTodoById(this.props.todo.id).then(() => this.props.reload);
+            deleteTodoById(this.props.todo.id).then(() => this.props.reload());
         } else {
             this.showModal();
         }
